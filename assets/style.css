@@ -1,0 +1,35 @@
+
+* {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    margin: 0 auto;
+  }
+  
+  html {
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  li {
+    list-style: none;
+  }
+.hts-deals-imgs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 95%;
+    grid-gap: 10px;
+}
+
+.hts-deals-fig>img {
+max-width: 100%;
+}
+
+  
