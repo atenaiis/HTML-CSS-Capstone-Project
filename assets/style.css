@@ -12,6 +12,8 @@
   html {
     width: 100%;
     margin: 0 auto;
+  font-family: 
+
   }
   
   a {
@@ -36,6 +38,19 @@
 max-width: 100%;
 }
 
+.search-placehorder {
+    width: 130px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('searchicon.png');
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  transition: width 0.4s ease-in-out;
+}
   .carousel-background {
       background: url(./images/paws.jfif)  ;
       background-color: #cccccc;

@@ -16,8 +16,9 @@
         <div class="nav-bar-items">
         <ul class="navbar-nav">
             <li class="nav-item"><a class="nav-link" href="#"> LOGO</a></li>
+            <li class="nav-item "><a class="nav-link" href=""><i class="fas fa-home"></i> HOME</a></li>
             <li  class="nav-item dropdown">
-                <a href="#"  class="nav-link dropdown-toggle" data-toggle="dropdown">Dogs</a>
+                <a href="#"  class="nav-link dropdown-toggle" data-toggle="dropdown"><i class="fas fa-bone"></i> Dogs</a>
                 <div class="dropdown-menu">
                     <a class="dropdown-item" href="#">Doggy food</a>
                     <a class="dropdown-item" href="#">Doggy Toys</a>
@@ -25,7 +26,7 @@
                 </div>
               </li>
               <li class="nav-item dropdown"><div class="dropdown">
-                <a href="#"  class="nav-link dropdown-toggle" data-toggle="dropdown">Cats</a>
+                <a href="#"  class="nav-link dropdown-toggle" data-toggle="dropdown"><i class="fas fa-paw"></i> Cats</a>
                 <div class="dropdown-menu">
                     <a class="dropdown-item" href="#">Kitty food</a>
                     <a class="dropdown-item" href="#">Kitty Toys</a>
@@ -33,26 +34,38 @@
                 </div>
               </div></li>
             <li class="nav-item"><div class="dropdown">
-                <a href="#"  class="nav-link dropdown-toggle" data-toggle="dropdown">Doggy Offers</a>
+                <a href="#"  class="nav-link dropdown-toggle" data-toggle="dropdown"> <i class="fas fa-tags"></i> Discounts</a>
                 <div class="dropdown-menu">
                     <a class="dropdown-item" href="#">30% off</a>
                     <a class="dropdown-item" href="#">20% off</a>
                 </div>
               </div></li> 
-              <li class="nav-item dropdown">
-                <a href="#"  class="nav-link dropdown-toggle" data-toggle="dropdown">Kitty Offers</a>
-                <div  class="dropdown-menu">
-                    <a class="dropdown-item" href="#">30% off</a>
-                    <a class="dropdown-item" href="#">20% off</a>
-                </div>
-              </li>
-            <li class="nav-item"><a class="nav-link" href="#"> About</a></li>
-            <li class="nav-item"><a class="nav-link" href="#"> Jobs</a></li>
-            <li class="nav-item"><a class="nav-link" href="#"> Contact</a></li>
+              
         </ul>
     </div>
     </nav>
     <main>
+        <div class="container">
+            <h2>Inline form</h2>
+            <p> In just one click you are getting your best friend's happiness!!</p>
+                
+             
+              <form class="form-inline" action="/action_page.php">
+              <select name="cars" class="custom-select-sm form-control">
+                <option selected>What are you?</option>
+                <option value="volvo">Cat person</option>
+                <option value="fiat">Dog person</option>
+                <option value="audi">Just looking</option>
+              </select>
+              <select name="cars" class="custom-select-sm form-control">
+                <option selected>Country</option>
+                <option value="volvo">U.S</option>
+                <option value="fiat">Mexico</option>
+                <option value="audi">China</option>
+              </select>
+              <input type="text" class="search-placehorder" placeholder="Search..">
+          </form>
+        </div>
     <div id="demo" class="carousel slide text-center carousel-background " data-ride="carousel">
         <ul class="carousel-indicators">
           <li data-target="#demo" data-slide-to="0" class="active"></li>
