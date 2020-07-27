@@ -21,15 +21,73 @@
   li {
     list-style: none;
   }
-.hts-deals-imgs {
+.hts-deals-imgs,
+.grid1 {
+   padding-top: 100px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+   grid-gap:10px;
     width: 95%;
     grid-gap: 10px;
 }
 
-.hts-deals-fig>img {
+.hts-deals-fig>img,
+.linktocatalog>img {
 max-width: 100%;
 }
 
-  
+  .carousel-background {
+      background: url(./images/paws.jfif)  ;
+      background-color: #cccccc;
+      max-height: 500px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+    }
+
+    .carousel-caption>h3,
+    .carousel-caption>p {
+      color: rgb(248, 25, 248);
+    }
+
+    .linktocatalog>span {
+       display: block;
+       width: inherit;
+       text-align: center;
+       background-color: rgba(0,0,0,.5);
+       line-height: 20px;
+       color: rgba(255,255,255,.8);
+       font-size: 15px;
+
+    }
+
+    .services> li {
+        display: inline-block;
+        list-style: none;
+        align-items: center;
+        width: fit-content;
+    }
+    .services-links {
+        background: #d9f1fa;
+        color: #035a92;
+        font-size: 50px;
+        height: 20px;
+        border-radius: 50%;
+        align-items: center;
+        width: 25px;
+        vertical-align: middle;
+        padding: 25px;
+     
+    }
+    .services> li> span {
+        font-size: 20px;
+        font-style: italic;
+        display: none;
+    }
+
+    .services>li :hover> span {
+display: block;
+    }
+     
+    
