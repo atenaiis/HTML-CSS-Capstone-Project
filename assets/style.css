@@ -12,10 +12,11 @@
   html {
     width: 100%;
     margin: 0 auto;
-  font-family: 
-
   }
-  
+   main {
+    background-color: #f6f6f6;
+   }
+
   a {
     text-decoration: none;
   }
@@ -23,25 +24,39 @@
   li {
     list-style: none;
   }
-
+  
   .bg-danger {
       color: #d35266 ;
   }
 
-.hts-deals-imgs,
+
+  .departments {
+   width: 90%;
+  text-align: center;
+   margin: 50px 20px 0 15px;
+  }
+
 .grid1 {
+ margin: 10px;
    padding-top: 100px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
    grid-gap:10px;
-    width: 95%;
+   width:100%;
     grid-gap: 10px;
+   width: 100%;
 }
 
+.linktocatalog {
+    border: 1px solid gray;
+    background-color: white;
+    max-height: 350px;
+}
 .hts-deals-fig>img,
-.linktocatalog>img {
+.linktocatalog>a>img {
 max-width: 100%;
 }
+
 
 
 input[type=text] {
@@ -80,6 +95,8 @@ input[type=text]:focus {
     margin: 10px;
 
   }
+
+
   .carousel-background {
       background-color: white;
       height: 500px;
@@ -98,9 +115,10 @@ input[type=text]:focus {
        display: block;
        width: inherit;
        text-align: center;
-       background-color: rgba(0,0,0,.5);
+       background-color: #888;
        line-height: 20px;
-       color: rgba(255,255,255,.8);
+       color:black;
+       font-weight: bolder;
        font-size: 15px;
 
     }
@@ -119,24 +137,18 @@ input[type=text]:focus {
     .carusel-main{
         width: 500px;
     }
-    .services> li {
-        display: inline-block;
+
+    .services-section {
+        background-color:#d47785;
+    }
+    .services {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
         list-style: none;
         align-items: center;
-        width: fit-content;
+        width: 100%;
     }
-    .services-links {
-        background: #d9f1fa;
-        color: #035a92;
-        font-size: 50px;
-        height: 20px;
-        border-radius: 50%;
-        align-items: center;
-        width: 25px;
-        vertical-align: middle;
-        padding: 25px;
-     
-    }
+   
     .services> li> span {
         font-size: 20px;
         font-style: italic;
@@ -161,6 +173,11 @@ display: block;
      
  }
 
+ .carousel-dimensions{
+   height: 350px;
+     
+ }
+
 .carousel-itemas>img  {
    float:   left;
    
@@ -168,4 +185,20 @@ display: block;
 .carousel-text {
     margin-top: 120px;
 }
+.departments {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.grid1 {
+   justify-content: space-evenly;
+       grid-template-columns: repeat(6, 1fr);
+      width: 100%;
+      margin: 0 auto;
+       grid-gap: 10px; 
+   }
+
+   .services {
+    grid-template-columns: repeat(5, 1fr);
+   }
     }
