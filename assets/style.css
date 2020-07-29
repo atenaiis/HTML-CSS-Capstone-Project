@@ -27,19 +27,21 @@
   li,
   h3,
   li>a,
-  .text {
+  .text,
+  label {
       color: #888888;
   }
   li {
     list-style: none;
   }
   
-  .bg-danger {
+  .bg-danger,
+  h6 {
       color: #d35266 ;
   }
 
   .logo1 {
-      width: 30px;
+      width: 25px;
       margin-bottom: 10px;
       
   }
@@ -54,7 +56,7 @@
 
   .nav-bar1 {
     display: inline-block;
-    height: 65px;
+    height: 45px;
     background-color: black;
     font-size: 15px;
     width: 100%;
@@ -64,7 +66,8 @@
   .nav-bar-list1 > li {
 display: inline-block;
 padding-left: 10px;
-
+font-size: 12px;
+padding: 0;
   }
 
   .nav-bar-list2 > li {
@@ -157,6 +160,7 @@ padding-left: 10px;
 .linktocatalog>a>img {
 max-width: 100%;
 }
+
 
 input[type=text] {
     width: 100%;
@@ -392,16 +396,16 @@ background-color: white;
             display:inline-block;
         }
 
-
   .fa-sms {
       font-size: 30px;
-      padding-top: ;
+      padding: 15px;
   }
 
   .nav-bar-list1 > li,
   .nav-bar-list2 > li {
    display: inline-flex;
     padding-right: 5px;
+          font-size: 15px;
   }
 
   .dropdown-content a {
@@ -424,7 +428,8 @@ background-color: white;
 
   .nav-bar-list1 {
     float: left;
-    padding-top: 10px;
+    padding-top: 20px;
+   
   }
 
   .nav-bar-list2 {
@@ -436,6 +441,8 @@ background-color: white;
   .user-pic {
     border-radius: 50px;
     width: 40px;
+    margin-bottom:  25px !important;
+  
 }
 
 form {
@@ -443,6 +450,7 @@ form {
     margin: 50px auto;
 justify-content:center;
 }
+
 
 select {
     max-width: 150px !important;
@@ -537,8 +545,17 @@ input[type=text]:focus {
 .pic-text {
     text-align: left;
     justify-content: center;
+    height: 600px;
 }
 
+.form-top2 {
+height: 450px;
+}
+
+.grid3{
+
+
+}
 .star-rating {
     width: 70px;
     height: 14px;
@@ -580,6 +597,7 @@ input[type=text]:focus {
       position: relative;
       bottom: 5px;
       display: inline-block;
+      left: 10px;
     }
     
     .dropup-content {
@@ -628,6 +646,7 @@ input[type=text]:focus {
     padding: 10px;
     grid-gap: 10px;
     border-bottom: 1px solid #383838;
+    height: 250px;
 }
 .pic-text>img {
     float: left;
@@ -664,7 +683,7 @@ width: 100%;
 
     .dropup {
       position: relative;
-     top: 55px;
+     top: 38px;
       display: inline-block;
     }
   }
