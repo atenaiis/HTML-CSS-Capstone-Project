@@ -39,7 +39,7 @@
   }
 
   .logo1 {
-      width: 50px;
+      width: 30px;
       margin-bottom: 10px;
       
   }
@@ -83,7 +83,9 @@ padding-left: 10px;
     color: #929292;
   }
 
- 
+.carousel-img {
+  max-width: 100%;
+} 
 
   .dropdown-content a:hover,
   .nav-bar-list1 > li > a:hover {
@@ -120,9 +122,13 @@ padding-left: 10px;
   }
  
   .departments {
-   width: 90%;
+   width: 100%;
   text-align: center;
-   margin: 50px 20px 0 15px;
+ 
+  }
+
+  .depart-imgs {
+    max-width: 100%;
   }
 
 .grid1 {
@@ -131,17 +137,21 @@ padding-left: 10px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
    grid-gap:10px;
-   width:100%;
-    grid-gap: 10px;
-   width: 100%;
+   
+
 }
 
 .linktocatalog {
     border: 1px solid gray;
     background-color: white;
     max-height: 350px;
+   max-width: 100%;
+    
 }
 
+.depart-imgs {
+  width: 75%;
+}
 
 .hts-deals-fig>img,
 .linktocatalog>a>img {
@@ -165,10 +175,11 @@ input[type=text] {
 
 .search-btn,
 select {
-    width: 100%;
+  justify-content: center;
+  width: 100%;
 }
   .form-top {
-      background: #d35266 url(./images/vet.png)40% 60%/600px repeat;
+      background: #d35266 url(./images/vet.png)80% 60%/600px repeat;
      height: 350px;
      width: 100%;
       display: flex;
@@ -233,12 +244,23 @@ select {
     .service-ttl {
       padding-top: 60px;
     }
+
+
     .services {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns:( 1fr, 1fr);
         list-style: none;
         align-items: center;
         width: 100%;
+  grid-gap: 5px;
+  padding-right: 50px;
+        
+       
+    }
+
+    .services>li {
+     
+      text-align: center;
     }
    
     .services> li> span {
@@ -266,7 +288,7 @@ select {
       .bottom_list,
       .services-section,
        {
-        background-color: #f6f6f6;
+        background-color: #888888;
       }
 
       .grid-bottom {
@@ -304,6 +326,9 @@ background-color: white;
           justify-content: center;
       }
   
+      .bottom-form {
+        width: 100%;
+      }
       input[type=text], select {
         width: 100%;
         padding: 12px 20px;
@@ -472,8 +497,16 @@ input[type=text]:focus {
    .services {
      height: 400px;
     grid-template-columns: repeat(5, 1fr);
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0;
    }
-
+   .bottom-form {
+  display: grid;
+  grid-template-columns: 4fr;
+  width: 500px;
+  
+  }
    
     }
 
