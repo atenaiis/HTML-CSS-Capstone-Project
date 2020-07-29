@@ -10,8 +10,8 @@
   html {
     width: 100%;
     margin:0 auto;
-    padding: 0 30px
-   
+    padding: 0 30px;
+    font-family: 'Carrois Gothic SC', sans-serif;
     
   }
 
@@ -58,11 +58,13 @@
     background-color: black;
     font-size: 15px;
     width: 100%;
+   
   }
 
   .nav-bar-list1 > li {
 display: inline-block;
 padding-left: 10px;
+
   }
 
   .nav-bar-list2 > li {
@@ -534,11 +536,11 @@ input[type=text]:focus {
         width: 80px;
     }
 
-    .dropbtn {
+    .dropbtn1 {
       color: #383838;
       padding: 3px;
       font-size: 15px;
-      border: 1px solid #383838;
+     border: none;
     }
     
     .dropup {
