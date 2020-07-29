@@ -500,3 +500,87 @@ input[type=text]:focus {
          width: 100% !important;
        }
     }
+/*catalog-html*/
+.pic-text {
+    text-align: left;
+    justify-content: center;
+}
+
+.star-rating {
+    width: 70px;
+    height: 14px;
+    position: absolute;
+    background-image: url(./images/star-rating.png) ;
+    background-repeat: repeat;
+    }
+
+    .special-offer {
+        line-height: 45px;
+    }
+
+    .buttons {
+        display: flex;
+        width: 150px;
+        height: 35px;
+        margin: 0px 0 10px 0;
+        
+       
+    }
+
+    .price-btn {
+        padding: 5px;
+        width: 50px;
+    }
+
+    .shop-btn {
+        width: 80px;
+    }
+
+@media screen and (min-width:  768px){
+.grid3 {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    max-width: 1150px;
+    margin: 0 auto;
+}
+
+
+.pic-text {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    max-width: 800px;
+    padding: 10px;
+    border-bottom: 1px solid #383838;
+}
+.pic-text>img {
+    float: left;
+}
+    .star-rating {
+    width: 70px;
+    height: 14px;
+    position: absolute;
+    background-image: url(./images/star-rating.png);
+    background-repeat: repeat;
+
+    }
+
+    .full-text {
+align-items: center;
+width: 100%;
+    }
+
+    .special-offer {
+        line-height: 55px;
+        color: #888888;
+        font-weight: bolder;
+    }
+
+    .buttons {
+        width: 150px;
+        height: 35px;
+        position: absolute;
+    }
+
+    .price-btn {
+        padding: 5px;
+    }
