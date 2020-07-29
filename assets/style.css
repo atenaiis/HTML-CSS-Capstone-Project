@@ -1,17 +1,18 @@
 
 * {
-    box-sizing: border-box;
+  
   }
   
   *,
   *::before,
   *::after {
+    box-sizing: border-box;
     margin: 0 auto;
   }
   
   html {
     width: 100%;
-    margin: 0 auto;
+   
     padding: 0 20px;
     
   }
@@ -55,11 +56,10 @@
 
   .nav-bar1 {
     display: inline-block;
-    height: 60px;
+    height: 65px;
     background-color: black;
     font-size: 15px;
     width: 100%;
-    margin: 0;
   }
 
   .nav-bar-list1 > li {
@@ -168,7 +168,8 @@ select {
     width: 100%;
 }
   .form-top {
-      background: #d35266 url(./images/logo.png)30% 60%/600px repeat ;
+      background: #d35266 url(./images/vet.png)40% 60%/600px repeat;
+     height: 350px;
      width: 100%;
       display: flex;
       align-items: center;
@@ -226,6 +227,14 @@ select {
         width: 500px;
     }
 
+    .pet-house {
+      width: 70px;
+      padding-bottom: 50px;
+    }
+
+    .service-ttl {
+      padding-top: 60px;
+    }
     .services {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -360,14 +369,6 @@ background-color: white;
             display:inline-block;
         }
 
-  .nav-bar1 {
-    display: inline-block;
-    height: 60px;
-    background-color: black;
-    font-size: 18px;
-    width: 100%;
-
-  }
 
   .fa-sms {
       font-size: 30px;
@@ -416,7 +417,7 @@ background-color: white;
 
 form {
     width: 100%;
-    margin: 60px auto;
+    margin: 50px auto;
 justify-content:center;
 }
 
@@ -444,7 +445,8 @@ input[type=text]:focus {
  }
 
  .carousel-dimensions{
-   height: 350px;
+   height: 450px;
+   margin-top: 50px;
      
  }
 
@@ -466,11 +468,11 @@ input[type=text]:focus {
    justify-content: space-evenly;
        grid-template-columns: repeat(6, 1fr);
       width: 100%;
-      margin: 0 auto;
        grid-gap: 10px; 
    }
 
    .services {
+     height: 400px;
     grid-template-columns: repeat(5, 1fr);
    }
 
