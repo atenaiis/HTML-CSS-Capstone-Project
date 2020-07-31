@@ -3,7 +3,7 @@
 *::before,
 *::after {
   box-sizing: border-box;
-  margin: 0 auto ;
+  margin: 0 auto;
 }
 
 html {
@@ -301,7 +301,7 @@ select {
 }
 
 .list {
- justify-content: center;
+  justify-content: center;
 }
 
 .bottom_text {
@@ -488,7 +488,7 @@ h5 {
   }
 
   .bottom-grid {
-   margin: 0;
+    margin: 0;
   }
 
   .bottom-form {
