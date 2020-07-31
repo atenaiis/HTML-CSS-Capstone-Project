@@ -3,18 +3,19 @@
 *::before,
 *::after {
   box-sizing: border-box;
-  margin: 0 auto;
+  margin: 0 auto ;
 }
 
 html {
-  width: 100%;
+  justify-content: center;
   margin: 0 auto;
-  padding: 0 30px;
-  font-family: 'Carrois Gothic SC', sans-serif;
+  padding: 0 20px;
+ 
 }
 
 main {
   background-color: #f6f6f6;
+  font-family: 'Archivo Narrow', sans-serif;
 }
 
 a {
@@ -24,10 +25,17 @@ a {
 p,
 li,
 h3,
+h1,
 li > a,
 .text,
 label {
   color: #888;
+}
+
+h1,
+nav,
+footer {
+  font-family: 'Fjalla One', sans-serif;
 }
 
 li {
@@ -138,6 +146,7 @@ h6 {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 10px;
+  max-width: 100%;
 }
 
 .linktocatalog {
@@ -175,8 +184,8 @@ select {
 
 .form-top {
   background: #d35266 url(./images/vet.png) 80% 60%/600px repeat;
-  height: 350px;
-  width: 100%;
+  height: 400px;
+  max-width: 100%;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -190,9 +199,10 @@ select {
 }
 
 .carousel-background {
-  padding-top: 50px;
+  margin-top: 20px;
+  padding-top: 60px;
   background-color: white;
-  height: 500px;
+  height: 550px;
 }
 
 .carousel-caption > h3,
@@ -235,8 +245,8 @@ select {
 }
 
 .services {
-  display: grid;
-  grid-template-columns: 1fr;
+  display: flex;
+  flex-direction: column;
   list-style: none;
   align-items: center;
   width: 100%;
@@ -276,6 +286,7 @@ select {
 }
 
 .grid-bottom {
+  align-items: center;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   background-color: white;
@@ -290,18 +301,10 @@ select {
   color: #888;
 }
 
-.double-list {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  align-items: initial;
-  box-sizing: border-box;
-  padding: 10px;
+.list {
+ justify-content: center;
 }
 
-.bottom-grid {
-  text-align: left;
-  font-size: 15px;
-}
 
 .bottom_text {
   margin: 10px;
@@ -311,7 +314,7 @@ select {
 }
 
 .bottom-form {
-  width: 100%;
+  max-width: 100%;
 }
 
 input[type=text],
@@ -346,10 +349,6 @@ h5 {
   border-radius: 5px;
   background-color: #f6f6f6;
   padding: 20px;
-}
-
-footer {
-  box-sizing: unset;
 }
 
 .footer-right {
@@ -482,16 +481,21 @@ footer {
 
   .services {
     height: 400px;
-    grid-template-columns: repeat(5, 1fr);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     max-width: 100%;
     margin: 0 auto;
     padding: 0;
   }
 
+  .bottom-grid {
+   margin: 0 ;
+  }
   .bottom-form {
     display: grid;
     grid-template-columns: 4fr;
-    width: 500px;
+   max-width: 100%;
   }
 }
 
