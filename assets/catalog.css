@@ -10,8 +10,9 @@
 }
 
 .catalog-img {
-max-height: 400px !important;
+  max-height: 400px !important;
 }
+
 .star-rating {
   width: 70px;
   height: 14px;
