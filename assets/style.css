@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  padding: 0 ;
+  padding: 0;
 }
 
 *,
@@ -413,7 +413,7 @@ h5 {
   .user-pic {
     border-radius: 50px;
     width: 30px;
-    padding:5px 5px 0;
+    padding: 5px 5px 0;
     margin-bottom: 20px !important;
   }
 
@@ -484,10 +484,10 @@ h5 {
     padding: 0;
   }
 
-  .bottom_names>article {
+  .bottom_names > article {
     padding: 10px;
   }
-  
+
   .bottom-grid {
     margin: 0;
   }
