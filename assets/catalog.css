@@ -4,20 +4,17 @@
   text-align: left;
   justify-content: center;
   height: 650px;
+  max-width: 100%;
 }
 
 .form-top2 {
   height: 450px;
 }
 
-.side-catalog{
+.side-catalog {
   margin-top: 100px;
 }
 
-.pic-text {
-  max-width: 100%;
-
-}
 .catalog-img {
   max-height: 400px !important;
   padding: 15px;
