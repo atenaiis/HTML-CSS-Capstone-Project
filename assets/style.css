@@ -1,16 +1,15 @@
 
+* {
+  box-sizing: border-box;
+  padding: 0 ;
+}
+
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
   margin: 0 auto;
 }
 
-html {
-  justify-content: center;
-  margin: 0 auto;
-  padding: 0 20px;
-}
 
 main {
   background-color: #f6f6f6;
@@ -73,7 +72,8 @@ h6 {
 
 .nav-bar-list1 > li {
   display: inline-block;
-  padding-left: 10px;
+  padding-left: 20px;
+  text-align: center;
   font-size: 12px;
 }
 
@@ -377,7 +377,6 @@ h5 {
 
   .fa-sms {
     font-size: 30px;
-    padding: 15px;
   }
 
   .nav-bar-list1 > li,
@@ -407,7 +406,6 @@ h5 {
 
   .nav-bar-list1 {
     float: left;
-    padding-top: 20px;
   }
 
   .nav-bar-list2 {
@@ -416,8 +414,9 @@ h5 {
 
   .user-pic {
     border-radius: 50px;
-    width: 40px;
-    margin-bottom: 25px !important;
+    width: 30px;
+    padding:5px 5px 0;
+    margin-bottom: 20px !important;
   }
 
   form {
@@ -487,6 +486,9 @@ h5 {
     padding: 0;
   }
 
+  .bottom_names>article {
+    padding: 10px;
+  }
   .bottom-grid {
     margin: 0;
   }
@@ -495,6 +497,10 @@ h5 {
     display: grid;
     grid-template-columns: 4fr;
     max-width: 100%;
+  }
+
+  footer {
+    max-width: 100% !important;
   }
 }
 
@@ -506,7 +512,7 @@ h5 {
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 10px;
     max-width: 100%;
-    width: 100%;
+   
   }
 
   .form-bottom2 {

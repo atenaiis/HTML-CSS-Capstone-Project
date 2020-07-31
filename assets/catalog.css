@@ -1,16 +1,26 @@
 /* catalog-html */
+
 .pic-text {
   text-align: left;
   justify-content: center;
-  height: 700px;
+  height: 650px;
 }
 
 .form-top2 {
   height: 450px;
 }
 
+.side-catalog{
+  margin-top: 100px;
+}
+
+.pic-text {
+  max-width: 100%;
+
+}
 .catalog-img {
   max-height: 400px !important;
+  padding: 15px;
 }
 
 .star-rating {
