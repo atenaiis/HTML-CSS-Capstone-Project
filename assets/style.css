@@ -347,9 +347,13 @@ h5 {
   padding: 20px;
 }
 
+footer {
+  padding: 15px;
+}
 .footer-right {
   left: 0;
   position: absolute;
+  font-size: 12px;
 }
 
 .footer-icons-main {
@@ -359,7 +363,7 @@ h5 {
 }
 
 .fab {
-  font-size: 20px;
+  font-size: 18px;
   color: #888;
 }
 
@@ -494,7 +498,6 @@ h5 {
 
   .bottom-form {
     display: grid;
-    grid-template-columns: 4fr;
     max-width: 100%;
   }
 
