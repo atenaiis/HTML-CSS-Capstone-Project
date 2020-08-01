@@ -11,7 +11,7 @@ HTML5
 CSS
 bootstrap
 
-## [Live Link](https://rawcdn.githack.com/atenaiis/HTML-CSS-Capstone-Project/0c7f4277342f0ea16b1f832ebf66ad870f2545f2/main-page.HTML)
+## [Live Link](https://rawcdn.githack.com/atenaiis/HTML-CSS-Capstone-Project/dffadebdd3075e979958da0dc96087c8f28c2173/main-page.HTML)
 
 ## Authors
 
